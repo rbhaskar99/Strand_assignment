@@ -39,11 +39,6 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR252/043/SRR25233843/SRR25233843_2.fas
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR252/031/SRR25233831/SRR25233831_1.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR252/031/SRR25233831/SRR25233831_2.fastq.gz
 
-# Directory for references
-mkdir -p db
-cd db
 
 # Download the k-mer and genome FASTA files for Prevotella nigrescens
 wget http://opengene.org/microbial.kc.fasta.gz
-wget https://opengene.org/uniquekmer/microbial/genomes_kmers/27/Prevotella_nigrescens_F0103_uid43119.kmer.fasta
-wget https://opengene.org/uniquekmer/microbial/genomes_kmers/27/Prevotella_nigrescens_F0103_uid43119.fasta
